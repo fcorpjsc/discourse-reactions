@@ -126,7 +126,8 @@ html.discourse-reactions-no-select {
     border-radius: 8px;
     display: grid;
     grid-gap: 0.25em;
-
+    width: auto;
+    
     @for $i from 1 through 8 {
       &.col-#{$i} {
         grid-template-columns: repeat($i, 1fr);
@@ -195,7 +196,8 @@ html.discourse-reactions-no-select {
 
   .container {
     box-shadow: shadow("card");
-    background-color: var(--secondary);
+    // background-color: var(--secondary);
+    background-color: red;
     display: flex;
     flex-direction: column;
     z-index: 1;
