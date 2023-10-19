@@ -196,8 +196,7 @@ html.discourse-reactions-no-select {
 
   .container {
     box-shadow: shadow("card");
-    // background-color: var(--secondary);
-    background-color: red;
+    background-color: var(--secondary);
     display: flex;
     flex-direction: column;
     z-index: 1;
