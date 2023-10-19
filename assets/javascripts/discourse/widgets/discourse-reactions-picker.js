@@ -52,6 +52,9 @@ export default createWidget("discourse-reactions-picker", {
           `div.discourse-reactions-picker-container.col-${this._getOptimalColsCount(
             reactions.length
           )}`,
+          {
+            style: "width: auto;",
+          },
           reactions.map((reaction) => {
             let isUsed;
             let canUndo;
